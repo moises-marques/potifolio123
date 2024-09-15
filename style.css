@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+.caixa-principal{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/tele.png.png);
+    background-size: cover;
+    background-position: center;
+    background:#191919;
+}
+
+.caixa-principal img {
+    width: 400px;
+    height: 400;
+    display: flex;
+    position: relative;
+    left: 800px;
+    top: 30px;
+    border-radius: 100%;
+    border: 2px solid rgb(75, 17, 235);
+    background: rgba(172, 255, 47, 0.384);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portifolio {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.portifolio span {
+    color: red;
+}
+
+li {
+    color: #ffffff;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: deeppink;
+    transition: 0.5s;
+}
+
+.meu-nome {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50px;
+}
+
+h1 span {
+    color: red;
+}
+
+.meu-nome h3 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.meu-nome h3 span {
+    color: chartreuse;
+}
+
+section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: 2px solid white;
+    background: #f1a90de5;
+    
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+    background: #000000;
+    color: #ffffff;
+    padding-left: 150px;
+}
+
+section div h2 {
+    font-size: 80px;
+    padding-left: 60px;
+}
+
+section span {
+    color: rgb(55, 0, 255);
+}
+
+section div p {
+    padding-left: 70px;
+    color: red;
+    font-size: 20px;
+}
+
+section div button {
+    position: relative;
+    font-size: 15px;
+    height: 30px;
+    width: 150px;
+    color: white;
+    background: rgb(55, 0, 255);
+    left: 70px;
+    top: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+section div button:hover{
+    background: 000000;
+    border: 2px solid rgb(55, 0, 255);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
